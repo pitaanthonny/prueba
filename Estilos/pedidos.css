@@ -1,0 +1,65 @@
+/* Estilos generales */
+#compras {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+    padding-bottom: 20%;
+  }
+  
+  /* Estilos para la sección de productos */
+  #productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  #productos div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #productos img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  /* Estilos para el botón de carga de productos */
+  #cargarProductos {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #cargarProductos:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el encabezado */
+  #compras h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  h1, h2, h3{
+    font-family:'face' ;
+  }
+   P{
+    font-family: 'Times New Roman';
+   }
+   @font-face {
+    font-family: 'face';
+    src: url(/fuente/Crucial-Medium.otf);
+  }
+  footer{
+ 
+    bottom: 0;
+    position: fixed;
+  }
+  
+
+  
+
